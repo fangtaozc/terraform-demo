@@ -5,7 +5,7 @@
 ### module2：在module1输出的命名空间中，创建configmap
 
 ## terragrunt使用步骤
-``` json
+```
 1 定义输出（module1）命名空间
 
 output "module-ns" {
@@ -26,4 +26,10 @@ dependency "module1" {
 inputs = {
   module_ns = dependency.module1.outputs.module-ns
 }
+
+4 调用方式
+# 进入根目录 
+cd ./03_parameters
+# 执行所有部署
+terragrunt run-all apply 
 ```

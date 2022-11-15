@@ -5,7 +5,7 @@
 ### module2：创建命名空间为test-module-ns-2的资源
 
 ## terragrunt使用步骤
-``` json
+```
 1 在根目录下添加文件（根目录为模块的上级目录）
 cat ./01_backend/terragrunt.hcl
 remote_state {
