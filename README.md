@@ -1,0 +1,2 @@
+# 使用terraform工具的demo记录
+主要环境是以s3为backend，在kubernets上部署相关服务，并且以terrgrunt为辅助工具。
