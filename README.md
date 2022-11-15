@@ -14,3 +14,5 @@
 
 * [03_parameters](https://github.com/fangtaozc/terraform-demo/tree/main/examples/03_parameters) 模块之间可能会有依赖，并且存在一些参数传递，利用terragrunt可以实现模块的依赖调用顺序，并且传递参数。（terragrunt run-all apply可以实现一次性有序部署多个模块）
 
+* [04_multi_env](https://github.com/fangtaozc/terraform-demo/tree/main/examples/04_multi_env) 一套部署可能存在多个环境，需要将不同环境配置进行统一管理，并且部署时可以任意指定不同环境。（terraform本身支持）
+
